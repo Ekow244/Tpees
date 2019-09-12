@@ -1,5 +1,5 @@
-const SHOP_DATA= [
-    {
+const SHOP_DATA= {
+   hats: {
       id: 1,
       title: 'Hats',
       routeName: 'hats',
@@ -60,7 +60,7 @@ const SHOP_DATA= [
         }
       ]
     },
-    {
+   sneakers :{
       id: 2,
       title: 'Sneakers',
       routeName: 'sneakers',
@@ -115,7 +115,7 @@ const SHOP_DATA= [
         }
       ]
     },
-    {
+  jackets:  {
       id: 3,
       title: 'Jackets',
       routeName: 'jackets',
@@ -152,7 +152,7 @@ const SHOP_DATA= [
         }
       ]
     },
-    {
+ womens:   {
       id: 4,
       title: 'Womens',
       routeName: 'womens',
@@ -201,7 +201,7 @@ const SHOP_DATA= [
         }
       ]
     },
-    {
+  mens:  {
       id: 5,
       title: 'Mens',
       routeName: 'mens',
@@ -233,7 +233,7 @@ const SHOP_DATA= [
         {
           id: 34,
           name: 'Jean Long Sleeve',
-          imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
+          imageUrl: 'https://firebasestorage.googleapis.com/v0/b/miren-suits.appspot.com/o/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash.jpg?alt=media&token=2c53814f-5aa5-41e3-b65b-c3f34d5723d3',
           price: 40
         },
         {
@@ -244,6 +244,6 @@ const SHOP_DATA= [
         }
       ]
     }
-  ];
+};
   
   export default SHOP_DATA;
